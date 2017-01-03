@@ -1,0 +1,42 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+str                                                               0160h        8
+Iizh                                                              0168h        2
+Uzel                                                              016Ah        2
+Imax                                                              016Ch        2
+nrread                                                            016Eh        2
+enable                                                            0170h        1
+ADport                                                            0171h        1
+ui                                                                0172h        1
+ii                                                                0173h        1
+cl                                                                0174h        4
+wr                                                                0178h        4
+un                                                                017Ch       20
+ip                                                                0190h       20
+r                                                                 01A4h        2
+up                                                                01A6h        2
+up1                                                               01A8h        2
+up2                                                               01AAh        2
+up3                                                               01ACh        2
+wrk                                                               01AEh        2
+menu                                                              01B0h        1
+_seed                                                             01B1h        4
+_base_y                                                           01B5h        4
+_lcd_x                                                            01B9h        1
+_lcd_y                                                            01BAh        1
+_lcd_maxx                                                         01BBh        1
+p                                                                 01BCh        2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+i                                                                 R4,R5        2
+ir                                                                R6,R7        2
+napstev                                                           R8,R9        2
+Uizh                                                              R10,R11      2
+Uinp                                                              R12,R13      2

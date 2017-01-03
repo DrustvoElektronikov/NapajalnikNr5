@@ -1,0 +1,37 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+str                                                               0160h        8
+Iizh                                                              0168h        2
+Imax                                                              016Ah        2
+nrread                                                            016Ch        2
+enable                                                            016Eh        1
+ADport                                                            016Fh        1
+ui                                                                0170h        1
+ii                                                                0171h        1
+cl                                                                0172h        2
+un                                                                0174h       20
+ip                                                                0188h       20
+r                                                                 019Ch        2
+up1                                                               019Eh        2
+up2                                                               01A0h        2
+up3                                                               01A2h        2
+_seed                                                             01A4h        4
+_base_y                                                           01A8h        4
+_lcd_x                                                            01ACh        1
+_lcd_y                                                            01ADh        1
+_lcd_maxx                                                         01AEh        1
+p                                                                 01AFh        2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+i                                                                 R4,R5        2
+ir                                                                R6,R7        2
+napstev                                                           R8,R9        2
+Uizh                                                              R10,R11      2
+Uinp                                                              R12,R13      2
