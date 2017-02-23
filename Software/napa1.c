@@ -38,7 +38,7 @@ V1.3b
 
 #include <mega16.h>
 #include <stdlib.h>
-#include <delay.h>
+#include <delay.h> nekineki
 #include <string.h>
 
 #define RXB8 1
